@@ -1,0 +1,17 @@
+.elDiv {
+  width: 70%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-left: 1%;
+
+}
+
+.block {
+  display: flex;
+  height: 50px;
+  width: 15%;
+  margin-top: 1%;
+  align-items: center;
+  justify-content: center;
+}

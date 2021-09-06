@@ -48,7 +48,7 @@ function Product({ el }) {
       onDragOver={(e) => overDrag(e)} //если находимся над др обьектом
       onDrop={(e) => drop(e, el)}
     >
-      {/* <div><image className='block' src={el.file} style={{width:'50px', height:'50px'}}/></div> */}
+      <div><image className='block image' src={el.file} alt='image' style={{width:'50px', height:'50px'}}/></div>
       <div className="block"> {el.name} </div>
       <div className="block">{el.price} руб</div>
       <div className="block">{el.color}</div>

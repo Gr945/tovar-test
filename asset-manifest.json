@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tovar-test/static/css/main.78483593.chunk.css",
+    "main.js": "/tovar-test/static/js/main.cf0a7f00.chunk.js",
+    "main.js.map": "/tovar-test/static/js/main.cf0a7f00.chunk.js.map",
+    "runtime-main.js": "/tovar-test/static/js/runtime-main.8913d217.js",
+    "runtime-main.js.map": "/tovar-test/static/js/runtime-main.8913d217.js.map",
+    "static/js/2.5ed29887.chunk.js": "/tovar-test/static/js/2.5ed29887.chunk.js",
+    "static/js/2.5ed29887.chunk.js.map": "/tovar-test/static/js/2.5ed29887.chunk.js.map",
+    "index.html": "/tovar-test/index.html",
+    "static/css/main.78483593.chunk.css.map": "/tovar-test/static/css/main.78483593.chunk.css.map",
+    "static/js/2.5ed29887.chunk.js.LICENSE.txt": "/tovar-test/static/js/2.5ed29887.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8913d217.js",
+    "static/js/2.5ed29887.chunk.js",
+    "static/css/main.78483593.chunk.css",
+    "static/js/main.cf0a7f00.chunk.js"
+  ]
+}

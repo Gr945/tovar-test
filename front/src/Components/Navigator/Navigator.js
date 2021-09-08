@@ -7,11 +7,11 @@ function Navigator(props) {
 
   const handler = (e) => {
     e.preventDefault();
-    if (e.target.value === "красный") history.push("/red");
-    if (e.target.value === "синий") history.push("/blue");
-    if (e.target.value === "зеленый") history.push("/green");
-    if (e.target.value === "добавить") history.push("/new");
-    if (e.target.value === "все") history.push("/");
+    if (e.target.value === "красный") {e.target.value = ''; history.push("/red")}
+    if (e.target.value === "синий") {e.target.value = ''; history.push("/blue")}
+    if (e.target.value === "зеленый") {e.target.value = '';history.push("/green")}
+    if (e.target.value === "добавить") {e.target.value = ''; history.push("/new")}
+    if (e.target.value === "все") {e.target.value = ''; history.push("/")}
   };
 
   return (
@@ -69,7 +69,7 @@ function Navigator(props) {
       <div>
         <div className="dropdown">
           Управление
-          <select defaultValue="" id="select_" onChange={(e) => handler(e)}>
+          <select defaultValue="" id="select_"onclick="reset()" onChange={(e) => handler(e)}>
             <option defaultChecked="">{""}</option>
             <option value="добавить">Добавить товар</option>
             <option value="все">Все</option>
